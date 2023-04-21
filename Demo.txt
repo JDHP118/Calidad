@@ -1,1 +1,3 @@
-My Demo
+My Demo () {
+return true;
+}
