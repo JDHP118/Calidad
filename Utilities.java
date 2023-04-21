@@ -3,7 +3,7 @@ package com.utils;
 public class Utilities {
   private static final int NUM_FILES = 114;
 
-  private static void findJavaFiles(File parentDirectory, List<File> files) {
+private static void findJavaFiles(File parentDirectory, List<File> files) {
   for(File file : parentDirectory.listFiles()){
     if (file.getName().endsWith(".java"))
       files.add(file);   
